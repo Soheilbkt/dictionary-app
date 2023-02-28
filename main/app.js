@@ -16,11 +16,7 @@ let wikiurl = document.querySelector(".link-wiki")
 
 // clcik for get api
 btnserach.addEventListener("click",() =>{
-        let regexNum = /\d+/
-        if(regexNum.test(inpSeach.value) || (inpSeach.value = " ") ){
-                alert("The entered word must not be a number or mpty")
-        }
-        else{
+                navigator.vibrate(5000);
                 conainerdret.innerHTML = ''
                 containerVerb.innerHTML = ''
                 let url = fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${inpSeach.value}`)
@@ -43,7 +39,7 @@ btnserach.addEventListener("click",() =>{
         
         
                         }).catch(eror => alert("The word is wrong or the internet is broken ):"))
-        }
+        
     
 });
 
