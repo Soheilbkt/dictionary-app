@@ -449,12 +449,6 @@ html{
   line-height: 32px;
 }
 
-.modal-dark{
-  color: #fff;
-  background: #1f1f1f;
-  box-shadow: none;
-}
-
 .polgon-3{
   -webkit-clip-path: polygon(55% 100%, 4% 10%,100% 10%);
           clip-path: polygon(55% 100%, 4% 10%,100% 10%);
@@ -817,20 +811,6 @@ html{
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#050505\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 5 5 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#1f1f1f94\] {
-  background-color: #1f1f1f94;
-}
-
-.bg-\[\#1f1f1f\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
 }
 
 .p-10 {
